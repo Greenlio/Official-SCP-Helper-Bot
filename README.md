@@ -5,7 +5,9 @@ This bot shows information about many SCPs.
 
 # Usage
 
-!info (SCP)
+`!info (SCP)`
+`!credits`
+
 Please remember that there is not all of the SCPs and that new ones are actively being contributed.
 
 # Installation
