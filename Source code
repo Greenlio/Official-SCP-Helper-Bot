@@ -1,0 +1,376 @@
+let Discord = require("discord.js");
+let client = new Discord.Client();
+
+client.on("message", message => {
+  if (message.content === "info SCP-096") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-096")
+      .setColor("YELLOW")
+      .setFooter(
+        "SCP 096 is a powerful creature. If you look at him body, face, etc he will enrage the enrage phase is a dangerous phase if he doesnt get bagged there he can kill SCP-096-1 and even if he just looked at the picture at the other side of the earth!"
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-682") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-682")
+      .setColor("RED")
+      .setFooter(
+        "SCP 682 Is a hard to destroy reptile he can regenerate very fast and he is called: The Reptile. It is very dangerous to humanity because it hates humanity he wants to destroy humanity for once and for all and the scp foundation wants tho terminate scp 682 for once and for all there were fights to terminate him as like SCP 173 or SCP 096 but the results of both fights were like the same."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-173") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-173")
+      .setColor("YELLOW")
+      .setFooter(
+        "SCP 173 also called: The Statue. Is an statue made out of concrete and only moves when unobserved if he is getting observed by someone or something like scp jamitor or human or security camera he will not move at all his kill method is to snap the enemys neck and thats quick he has alot of strength which is unknown where he got the strength from and the makers of the statue are still unknown but theres a youtube video link: https://www.youtube.com/watch?v=4CACc1sfkFU click this link to get to the video!"
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-001") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-001")
+      .setColor("DARK_BLUE")
+      .setFooter(
+        "SCP-001 also called: The Gate Guardin. Is an angel that guards something that we don't know he is guarding [REDACTED] if you come in near of 1 kilometer range he will do NOTHINGS if you step to 900 meters forward you will get nausea and feel dizzy and if he see's you he will kill you with his giantic sword he is a Appolyon object that is near to impossible to contain as an scp to contain he don't owns a chamber he lives somewhere there were also a broadcast to fear the light because he somehow breached the Appolyon containment and thats bad because he could kill alot of humans!"
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-914") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-914")
+      .setColor("GREEN")
+      .setFooter(
+        "SCP-914 is a complex mechanism that upgrades things it can also make you faster it has these variants to upgrade: Poor, Good, 1:1, Fine, Very Fine. The poor variant is to make things poor and useless the Good variant is to make things better to use. The 1:1 variant will copy the 1 thing that you placed in the INPUT and will be copyed and will moved to the OUTPUT. The Fine variant is making it more usefully if you stay in the fine variant you will be teleported to the output then you are faster! The very fine variant makes things alot of good example: L4 Keycard Option: Very Fine *puts L4 Key in inPut *Waits 10 - 15 seconds* a Lv 5 Key will come out in the output theres enough space to put a whole human inside the input or output! Its an safe class object so you can access it with a level 2 or 3 keycard!"
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "gadgetinfo Scramble") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("Scramble Goggles")
+      .setColor("DARK_GREEN")
+      .setFooter(
+        "New Entry: Scramble Goggles: They have failed, they were manipulated... no it has no use. You will just die using them."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-2317") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-2317")
+      .setColor("DARK_RED")
+      .setFooter(
+        "SCP-2317 is a framed wooden door originally intended for the basement of an eighteenth-century Massachusetts sandstone house. ... When the door is opened, every person walking through the door frame is transported into an alternate reality. 7 chains already broke 1 is left if the last chain breaks the world would end in an XK Class Scenario!"
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-003") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-003 1")
+      .setColor("YELLOW")
+      .setFooter(
+        "SCP-003 must be kept at a temperature of at least 35 ° C, at best above 100 ° C. No living multicellular organisms of Category IV or higher should come in contact with SCP-003."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-003 2") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-003 2")
+      .setDescription("The Second part of SCP-003")
+      .setColor("YELLOW")
+      .setFooter(
+        "In the event of a total power failure, personnel must maintain physical contact with SCP-003-1. Ideally, personnel can use body heat to warm SCP-003-1 above the critical temperature. When SCP-003 reaches its activation temperature, skin contact must be maintained at least until SCP-003-1 has fully reached its second growth stage."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-003 3") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-003 3")
+      .setDescription("The 3rd part of SCP-003!")
+      .setColor("YELLOW")
+      .setFooter(
+        "Personnel entering the containment area of ​​SCP-003 must be screened for Category IV or higher parasites and decontaminated if such organisms are present. Any employee who comes into direct contact with SCP-003-1 must report for subsequent decontamination."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-003 4") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-003 4")
+      .setDescription("The 4rd and final part of SCP-003")
+      .setColor("YELLOW")
+      .setFooter(
+        "SCP-003-1 must not be separated from SCP-003-2, except in the event of a serious emergency as described above. Any change in SCP-003-2's runic activities (including pattern changes, color changes, frequency changes) must be reported within three (3) hours of their occurrence. However, any cessation of runic activity must be reported immediately. SCP-003-2 must be continuously connected to and powered by generator 003-IX."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-049") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-049")
+      .setColor("YELLOW")
+      .setFooter(
+        "SCP-049 is an doctor that wants to cure the pestillence but you do not have the pestillence he also has a deadly touch so stay away from him as far as possible to not get cured if you get cured you will transform into a zombie and you will be following SCP-049 if you are cured thats called SCP-049-1!"
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-999") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-999")
+      .setColor("GREEN")
+      .setFooter(
+        "SCP-999 is an tickle monster made out of slime and can cure pepole from depression and etc it tickles very much and makes pepole happy when touched this monster is also ver cute and if he does a mistake like he drops a cafe by accident he goes back and likes to say sorry!"
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-3000") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-3000")
+      .setColor("DARK_BLUE")
+      .setFooter(
+        "SCP-3000 is a giantic creature also the object class is THAUMIEL only LV5 Card access! It can open a mouth very wide dont wimm in it or you are dead here a cut from logs: ||[REDACTED]|| Ananta... i was wrong (sniffs) god please safe me. SCP-3000 consumes him quickly and swimms into the deep."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-178") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-178")
+      .setColor("YELLOW")
+      .setFooter(
+        "SCP-178 are 3D Glasses that makes you see monsters no this is not a horror movie the monsters have 4 arms on there back and they are black and have 2 normal arms and 2 normal legs but the 4 arms are very scary you still can die thats why they are euclid they can make your brain go brain dead and thats bad because you die there and then also in reallife and nobody knows what happened so dont equip the glasses!"
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-500") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-500")
+      .setColor("GREEN")
+      .setFooter(
+        "SCP-500 is an pill that cures everything the pill is also used by MTF unit Beta - 7 to cure the zombie cure from the plague doctor and the 1st side is red the second side is white it can cure every sickness so don't worry you can take it without any problems! OBJECT CLASSS: SAFE"
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-1049") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-1049")
+      .setColor("YELLOW")
+      .setFooter(
+        "SCP-1049 is to be kept in a 1 x 1 x 3m aviary. Other than a perch 2m above ground, feeder, and water container, no foreign objects are permitted in SCP-1049's enclosure. SCP-1049 must be kept tethered to the perch at all times. If entry to SCP-1049's enclosure is required, protective clothing must be worn and time spent inside the enclosure must be kept to a minimum."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-008") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-008")
+      .setColor("YELLOW")
+      .setFooter(
+        "SCP-008 is an biohazard that makes humans turn into zombies thats scary but if the foundation see's a zombie he will be instantly terminated so you do not need to be scared but if theres an incident and more foundation staff gets infected it gets harder and whole facility lockdown would be initiated and all tests would be cancelled immediately!"
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-035") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-035")
+      .setColor("RED")
+      .setFooter(
+        "A mask capable of transferring its conscious onto any victim which wears it. In this instance it is worn by a scientist in its containment chamber. Offers the player freedom in exchange for its release."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-066") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-066")
+      .setColor("YELLOW")
+      .setFooter(
+        "Produces random effects and behaviors with no visible pattern. Often says: Eric? when within range of a subject."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-079") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-079")
+      .setColor("YELLOW")
+      .setFooter(
+        "Creates loud blaring sounds when near CCTV monitors. Attempts to halt the player's progress through varied means."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-106") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-106")
+      .setColor("RED")
+      .setFooter(
+        "Capable of traversing through solid matter. Catches victims and takes them to its Pocket Dimension."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "i hate wasps") {
+    message.channel.send("same bro");
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-002") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-002")
+      .setColor("YELLOW")
+      .setFooter(
+        "SCP-002 resembles a tumorous, fleshy growth with a volume of roughly 60 m³ (or 2000 ft³). An iron valve hatch on one side leads to its interior, which appears to be a standard low-rent apartment of modest size. One wall of the room possesses a single window, though no such opening is visible from the exterior. The room contains furniture which, upon close examination, appears to be sculpted bone, woven hair, and various other biological substances produced by the human body. All matter tested thus far show independent or fragmented DNA sequences for each object in the room."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-515") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-515")
+      .setColor("RED")
+      .setFooter(
+        "SCP-515 is presently a Caucasian male of the approximate age of 14; no applicable birth certificate has yet been found, so all relevant personal information is the product of hypotheses and the subject of guesswork. His basal metabolic rate is comparable to that of a blue whale or a mammal of greater size, but mass is slightly below average for humans of similar ages."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-515") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-515")
+      .setColor("RED")
+      .setFooter(
+        "Despite ignorance of all other bodily needs, and despite attempted interference on the part of researchers, SCP-515 has yet to be observed in a state of consciousness apart from Stage N3 dreamless sleep. For the entire duration of containment, SCP-515 has ingested no food or water and has passed no waste; what has kept him alive for so long is still under study."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-515") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-515")
+      .setColor("RED")
+      .setFooter(
+        "Even asleep, SCP-515 has been known to speak on rare occasions. Little of what is said is intelligible, and that which can be heard is typically incoherent, similar to the speech of a person in the grip of delirium. Portions have been recorded for future research; no noticeable difference in the movement of SCP-515-1 has been noted during these periods."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-009") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-009")
+      .setColor("YELLOW")
+      .setFooter(
+        "SCP-009 is approximately ███ liters of a substance which superficially resembles distilled water (H2O), except with a distinct bright red hue. This red hue is discernible in all phases, and serves as the most expedient method of identifying contaminated matter before its anomalous properties manifest. In contrast to mundane water, SCP-009 assumes a liquid phase at temperatures between -100°C and 0°C, and a solid state above those temperatures. At temperatures below -100°C, SCP-009 vaporizes into a gaseous phase similar to steam."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-009") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-009")
+      .setColor("YELLOW")
+      .setFooter(
+        "Examinations of the atomic structure of SCP-009 have proved inconclusive. The substance appears to be identical to normal water molecules, with the exception of [REDACTED] in contrast to standard laws of enthalpy. Dr. █████, Site ██'s resident expert on Xenospatial Physics suggests that SCP-009 may originate in a universe with alternate physical laws."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-009") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-009")
+      .setColor("YELLOW")
+      .setFooter(
+        "The most hazardous property of SCP-009, however, is its ability to contaminate normal H2O. When in contact with any aqueous solution, SCP-009 will, through unknown mechanisms, transfer its anomalous properties to other objects and creatures. Testing has shown it capable of assimilating ice, steam, tea, fruit juice, seawater, blood, and [DATA EXPUNGED]. The time it takes for this process to occur varies depending on temperature and the exact chemical composition of affected matter, and had been observed as taking between 3 minutes and ██ hours."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-009") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-009")
+      .setColor("YELLOW")
+      .setFooter(
+        "The most hazardous property of SCP-009, however, is its ability to contaminate normal H2O. When in contact with any aqueous solution, SCP-009 will, through unknown mechanisms, transfer its anomalous properties to other objects and creatures. Testing has shown it capable of assimilating ice, steam, tea, fruit juice, seawater, blood, and [DATA EXPUNGED]. The time it takes for this process to occur varies depending on temperature and the exact chemical composition of affected matter, and had been observed as taking between 3 minutes and ██ hours."
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-009") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-009")
+      .setColor("YELLOW")
+      .setFooter(
+        "1. Initial Exposure: Subject is exposed to SCP-009, and it begins assimilating any moisture present on the exposed surface. Creatures in this stage do not commonly notice any unusual symptoms except for a slight warming sensation. 2. Surface Conversion: Frost begins to form on the exposed area as the heat produced by the subject and SCP-009 itself raises its temperature above 0°C. This stage can take anywhere from one (1) minute to █ hours, during which time subjects begin to feel [REDACTED] crystals from the epidermis. 3. Deep Tissue Conversion: Exponential increase in temperature of SCP-009 causes runaway reaction throughout subject's body, resulting in [REDACTED]. Actual blood loss is minimal due to ice crystals [REDACTED], allowing subjects to remain alive and conscious for up to ██ hours. 4. [DATA EXPUNGED]"
+      );
+    message.channel.send(embed);
+  }
+});
+client.on("message", message => {
+  if (message.content === "-help SCP-Bot") {
+    message.channel.send("Do info SCP-your scp!");
+  }
+});
+client.on("message", message => {
+  if (message.content === "pls dog meme") {
+    message.channel.send(
+      "Ok dog meme here you go! https://cdn.discordapp.com/attachments/718495788170346507/803680950793404416/D028A450-347C-449C-A8AC-52EA9FA13775.jpeg"
+    );
+  }
+});
+client.on("message", message => {
+  if (message.content === "info SCP-2521") {
+    let embed = new Discord.MessageEmbed()
+      .setTitle("SCP-2521")
+      .setColor("RED")
+      .setFooter(
+      "SCP-2521 is an humanoid like Entity if you call out its name it will take it, or you in the worst case with you, so always only speak SCP-..|.....|..|. for your safety."
+      );
+  message.channel.send(embed);
+    }
+});
+client.login("Nzk3MDk1NDE3MTMyNzQ0NzE2.X_he9A.6dxx2NLMzMiC8pyqtwQY43k3uw4");
