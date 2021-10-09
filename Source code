@@ -373,4 +373,4 @@ client.on("message", message => {
   message.channel.send(embed);
     }
 });
-client.login("Nzk3MDk1NDE3MTMyNzQ0NzE2.X_he9A.6dxx2NLMzMiC8pyqtwQY43k3uw4");
+client.login("FORBIDDEN");
