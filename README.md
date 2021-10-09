@@ -8,7 +8,7 @@ This bot shows information about many SCPs.
 `!info (SCP)`
 `!credits`
 
-Please remember that there is not all of the SCPs and that new ones are actively being contributed.
+Please remember that there is not all of the SCPs, and that new ones are actively being contributed.
 
 # Installation
 
