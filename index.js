@@ -1,9 +1,7 @@
+//Credits to Greenlio.
 let Discord = require("discord.js");
 let client = new Discord.Client();
 let prefix = "!"
-
-// actual code, fixed
-
 
 client.on("message", message => {
     if (message.author.bot) return;
@@ -98,5 +96,3 @@ client.on("message", message => {
 });
 
 client.login("token here");
-
-// you're welcome child who wrote this
